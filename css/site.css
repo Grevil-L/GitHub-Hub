@@ -87,3 +87,12 @@ body{
     font-size: 14px;
     background-color: lightseagreen;
 }
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
+}
+
+.result .title {
+    font-weight: bold;
+}

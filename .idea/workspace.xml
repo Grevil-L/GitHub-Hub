@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="121389d5-03d9-4309-b783-207275850317" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GitHub Hub.html" afterPath="$PROJECT_DIR$/GitHub Hub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/site.css" afterPath="$PROJECT_DIR$/css/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +23,11 @@
       <file leaf-file-name="GitHub Hub.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GitHub Hub.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="378">
+              <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
               <folding>
-                <element signature="e#1796#1802#0" expanded="true" />
-                <element signature="e#1820#1827#0" expanded="true" />
+                <element signature="e#1933#1939#0" expanded="true" />
+                <element signature="e#1957#1964#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -48,8 +48,8 @@
       <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="690">
+              <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -68,12 +68,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/js/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/site.css" />
-        <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/GitHub Hub.html" />
+        <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
@@ -85,8 +88,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1289" />
-    <option name="width" value="639" />
+    <option name="x" value="1221" />
+    <option name="width" value="707" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -215,26 +218,27 @@
       <workItem from="1494631913014" duration="7530000" />
       <workItem from="1494864256416" duration="1208000" />
       <workItem from="1494884628060" duration="75000" />
-      <workItem from="1494885158076" duration="52000" />
+      <workItem from="1494885158076" duration="3971000" />
+      <workItem from="1495055260950" duration="8466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11465000" />
+    <option name="totallyTimeSpent" value="23850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1289" y="0" width="639" height="1038" extended-state="0" />
+    <frame x="1221" y="0" width="707" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22957747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -257,11 +261,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GitHub Hub.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitHub Hub.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#1796#1802#0" expanded="true" />
-            <element signature="e#1820#1827#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -289,8 +322,8 @@
         <state relative-caret-position="210">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#1796#1802#0" expanded="true" />
-            <element signature="e#1820#1827#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -318,8 +351,8 @@
         <state relative-caret-position="210">
           <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
-            <element signature="e#1796#1802#0" expanded="true" />
-            <element signature="e#1820#1827#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -347,8 +380,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1796#1802#0" expanded="true" />
-            <element signature="e#1820#1827#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -366,8 +399,8 @@
         <state relative-caret-position="378">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="e#1796#1802#0" expanded="true" />
-            <element signature="e#1820#1827#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -380,29 +413,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/site.css">
+    <entry file="file://$USER_HOME$/Downloads/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="84">
+          <caret line="1" column="209" lean-forward="true" selection-start-line="1" selection-start-column="209" selection-end-line="1" selection-end-column="209" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GitHub Hub.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="378">
+          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
-            <element signature="e#1796#1802#0" expanded="true" />
-            <element signature="e#1820#1827#0" expanded="true" />
+            <element signature="e#1933#1939#0" expanded="true" />
+            <element signature="e#1957#1964#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="94" column="31" lean-forward="false" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
