@@ -1,0 +1,65 @@
+<!--This is Grevil's practice HTML -->
+<!doctype html>
+<html>
+<head>
+    <title>GitHub Hub</title>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="\index.html">Home</a></li>
+                <li><a href="\index.html">Contact</a></li>
+                <li><a href="\index.html">About</a></li>
+            </ul>
+        </nav>
+        <div><img src="img/logo.gif" alt="heading image" class="bordered-image"></div>
+        <p>This is a site to search <a href='http:\\www.github.com'>GitHub</a> for exciting projects</p>
+    </header>
+
+    <section id="main">
+        <p>In this <em>sample site</em>, we'll show a list of <strong>GitHub</strong> projects and some data about those
+            projects</p>
+        <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form">
+
+            <label for="searchPhrase">Search Phrase:</label>
+            <input type="text" name="searchPhrase" id="searchPhrase"/><br/>
+
+            <input type="checkbox" name="useStars" id="useStars" checked="true"/><label for="useStars">Use
+            Stars?</label><br/>
+
+            <label for="stars">select stars:</label>
+            <select name="stars" id="stars">
+                <option>All</option>
+                <option selected>Sagitaruis</option>
+                <option>Leo</option>
+                <option>Scorpion</option>
+                <option>Aries</option>
+            </select>
+
+            <input type="submit" value="Search"/>
+        </form>
+        <div id="results" class="bordered-image">
+            <button id="toggleButton">Hide</button>
+            <div id="resultList">This is where results will go</div>
+        </div>
+    </section>
+
+    <footer>
+        &copy;Grevil Lopes 2017 &TRADE;
+
+    </footer>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</div>
+
+
+</body>
+</html>
+

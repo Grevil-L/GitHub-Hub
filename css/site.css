@@ -1,0 +1,98 @@
+html, body{
+    padding: 0;
+    margin:0;
+}
+
+.container{
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3px;
+}
+
+header, footer{
+    background: antiquewhite;
+    border: black solid 1px;
+    font-family: Helvetica, serif;
+}
+
+header ul li{
+    display:inline;
+    font-size:12px;
+}
+
+header nav{
+    float:right;
+    margin-right: 5px;
+}
+
+a{
+    color: green;
+}
+
+footer{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.bordered-image{
+    border: 1px solid brown;
+}
+
+#results{
+    padding:2px;
+    width:600px;
+}
+
+.simple-form{
+    padding: 2px;
+    font-weight: bold;
+}
+
+#main{
+    border: lightblue 1px solid;
+    border-radius: 5px;
+    background: lightcyan;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.simple-form label{
+    font-size: 20px;
+
+}
+
+.simple-form input[type=text],
+#main select{
+    width:150px;
+}
+
+#main input[type=submit]{
+    border: lightblue 1px solid;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+h1{
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+
+body{
+    font-size: 14px;
+    background-color: lightseagreen;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
+}
+
+.result .title {
+    font-weight: bold;
+}
