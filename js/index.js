@@ -53,12 +53,24 @@ $(document).ready(function () {
 //
 // function showMsg(msg)
 //
+    $("#gitHubSearchForm").on("submit", functoion()
+    {
 
-    var gitHubSearch = "https://api.github.com/search/repositories?q=jquery+language:javascript&sort=stars";
-    $.get(gitHubSearch, function(r){
-        //console.log(r.items.length);
-        displayResults(r.items);
-    });
+        var gitHubSearch = "https://api.github.com/search/repositories?q=jquery+language:javascript&sort=stars";
+        $.get(gitHubSearch).then(function (r) {
+            //console.log(r.items.length);
+            displayResults(r.items);
+        }).fail(function (err) {
+            console.log("Failed to query GitHub");
+        }).done(function () {
+            //
+        });
+
+        return false;
+    }
+    )
+
+
 
 
     // var results = [{
@@ -85,30 +97,29 @@ $(document).ready(function () {
     //     }
     // }];
 
-    function displayResults(results){
-    resultList.empty();
-    $.each(results, function(i, item){
+    function displayResults(results) {
+        resultList.empty();
+        $.each(results, function (i, item) {
 
-        var newResult = $("<div class='result'>" +
+            var newResult = $("<div class='result'>" +
                 "<div class='title'>" + item.name + "</div>" +
                 "<div>Language: " + item.language + "</div>" +
                 "<div>Full name: " + item.full_name + "</div>" +
                 "</div>");
 
-        newResult.hover(function () {
-            //make it darker
-            $(this).css("background-color", "lightgray");
-        }, function(){
-            //make it lighter
-            $(this).css("background-color", "transparent");
-        })
+            newResult.hover(function () {
+                //make it darker
+                $(this).css("background-color", "lightgray");
+            }, function () {
+                //make it lighter
+                $(this).css("background-color", "transparent");
+            })
 
-        resultList.append(newResult);
+            resultList.append(newResult);
 
 
-    });
+        });
     }
-
 
 
 });
